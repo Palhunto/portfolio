@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202124;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}nto principal do Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    align-items: center;
+}
+
+/* Configurações dos botões no header */
+.header a {
+    margin: 0;
+}
+
+/* Header */
+
+/* Alinhamein-right: 20px;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 13px;
+    text-decoration: inherit;
+}
+
+/* Efeito ao deslizar o mouse */
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* configurações botôes a direita */
+.header_right   {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+/* espaço entre os ícones */
+.header_right .header_apps {
+    margin-right: 10px;
+}
+/* Fim do Header */
+
+/* corpo principal do Google */
+.mainBody{
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+/* Imagem Google */
+.mainBody img {
+    object-fit: contain;
+    height: 65px;
+}
+
+/* Barra de pesquisar configuração */
+.search_input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #5f6368;
+    height: 23px;
+    padding: 6px 20px;
+    border-radius: 999px;
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+    color: #9aa0a6;
+}
+
+/* Efeito barra de Pesquisa */
+.search_input:hover
+{
+    background-color:#303134;
+}
+
+
+.search_input input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 12px;
+}
+
+.search_input .material-icons {
+    color: gray;
+}
+
+.search_buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.search_buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #303134;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.search_buttons button:hover
+{
+    box-shadow: 0px 0px 0px 1px rgba(255,255,255,0.94);
+}
+/* Fim do mainbody Google */
+
+
+.footer{
+    width: 100%;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    font-size: 13px;
+    padding: 7px;
+    text-align: center;
+    justify-content: space-between;
+}
+.footer a
+{
+    margin-right: 20px;
+    color: #9aa0a6;
+    font-size: 12px;
+    text-decoration: inherit;
+    text-decoration: none;
+}
+.footer a:hover
+{
+    text-decoration: underline;
+}
+
+.footer_upper{
+    text-align: left;
+    margin-right: 20px;
+    padding-bottom: 2vh;
+    color:#9aa0a6;
+    border-bottom: solid 1px #3c4043;
+    width: 100%;
+    
+}
+
+.footer_full{
+    display: flex;
+}
+
+.footer_lower{
+    display: flex;
+    width: 50%;
+    text-align: right;
+    justify-content: center;
+}
+
+.footer_lower_right{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}

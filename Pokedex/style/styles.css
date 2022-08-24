@@ -1,0 +1,155 @@
+body {
+    background-color: #293744;
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 3% 0;
+}
+
+.pokedexlogo {
+    max-width: 500px;
+}
+
+.headertext {
+    color: white;
+    font-size: 28px;
+    padding-bottom: 7%;
+}
+
+.filtro {
+    display: flex;
+    padding-bottom: 1%;
+}
+
+.iconfiltro {
+    padding: 0 10px;
+}
+
+.textfiltro a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.textfiltro a:hover {
+    text-decoration: underline;
+}
+
+.tipos {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    border-color: #304150;
+    padding: 1% 1%;
+}
+
+.tipos a {
+    margin: 10px;
+    display: flex;
+    border: solid 1px black;
+    border-radius: 999px;
+    padding: 10px 10px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    transition: ease 0.3s;
+}
+
+.tipos a:hover {
+    background: rgba(124, 124, 124, 0.473);
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0,0.8);
+    transform: scale(1.10);
+}
+
+.tipos_upper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tipos_down {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.normal a{
+    color: #23242a;
+    background: #b1b1b1;
+}
+
+.lutador a {
+    background: #b64d19;
+}
+
+.voador a {
+    background: #277ba1;
+}
+
+.veneno a {
+    background: #823ec3;
+}
+
+.terra a {
+    background: #8a8331;
+}
+
+.pedra a {
+    background: #715c3d;
+}
+
+.inseto a {
+    background: #2f9651;
+}
+
+.fantasma a {
+    background: #83417a;
+}
+
+.metal a {
+    background: #6c6c6c;
+}
+
+.fogo a {
+    background: #a8282b;
+}
+
+.agua a {
+    background: #145eab;
+}
+
+.grama a {
+    background: #7d8545;
+}
+
+.eletrico a {
+    background: #ba9a22
+}
+
+.psiquico a {
+    background: #452a8d;
+}
+
+.gelo a {
+    background: #659dba;
+}
+
+.dragao a {
+    background: #d57931;
+}
+
+.noturno a {
+    background: #232424;
+}
+
+.fada a {
+    background: #ba65a0;
+}

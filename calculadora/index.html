@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles.css">
+
+    <title>CALCULADORA</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="header">
+            Calculadora
+            <div class="icons">
+                <button>
+                    <div class="minimize"><span class="material-symbols-outlined">minimize</span></div>
+                </button>
+                <div class="expand"><button><span class="material-symbols-outlined">check_box_outline_blank</span></button></div>
+                <div class="close"></div><button><span class="material-symbols-outlined">close</span></button></div>
+            </div>
+        </div>
+        
+
+        <!-- cabeçalho starts -->
+        <section class="headerdown">
+            <div class="leftheader">
+                <button><span class="material-symbols-outlined">menu</span></button>
+                <div class="padrao">Padrão</div>
+                <button><span class="material-symbols-outlined">open_in_new</span></button>
+            </div>
+
+
+            <div class="rightheader">
+                <button><span class="material-symbols-outlined">history</span></button>
+            </div>
+        </section>
+        <!-- cabeçalho ends -->
+
+        <!-- resultados starts -->
+        <section class="result">
+            <div class="last_result">
+                <p id="resultado">0</p>
+            </div>
+            <div class="result">
+
+            </div>
+        </section>
+        <!-- resultado ends -->
+
+        <section class="memory">
+            <button>MC</button>
+            <button>MR</button>
+            <button>M+</button>
+            <button>M-</button>
+            <button>MS</button>
+        </section>
+
+        <section class="body">
+            <tr>
+                <div class="symbols">
+                    <td><div class="percent"><button>%</button></div></td>
+                    <td><div class="CE"><button onclick="clean()">CE</button></div></td>
+                    <td><div class="C"><button>C</button></div></td>
+                    <td><div class="backspace"><button onclick="backspace()"><span class="material-symbols-outlined">backspace</button></span></div></td>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="symbols">
+                    <td><div class="divfraction"><button>1/x</button></div></td>
+                    <td><div class="square_root"><button>Raiz</button></div></td>
+                    <td><div class="squared"><button>x²</button></div></td>
+                
+                    <td><div class="div"><button onclick="insert('/')">div</button></div></td>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="numbers">
+                    <td><div class="seven"><button onclick="insert('7')">7</button></div></td>
+                    <td><div class="eight"><button onclick="insert('8')">8</button></div></td>
+                    <td><div class="nine"><button onclick="insert('9')">9</button></div></td>
+                </div>
+                <div class="symbols">
+                    <td><div class="vezes"onclick="insert('*')"><button>X</button></div></td>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="numbers">
+                    <td><div class="four"><button onclick="insert('4')">4</button></div></td>
+                    <td><div class="five"><button onclick="insert('5')">5</button></div></td>
+                    <td><div class="six"><button onclick="insert('6')">6</button></div></td>
+                </div>
+                <div class="symbols">
+                    <td><div class="minus" onclick="insert('-')"><button>-</button></div></td>
+                </div>
+
+            </tr>
+
+            <tr>
+                <div class="numbers">
+                    <td><div class="one"><button onclick="insert('1')">1</button></div></td>
+                    <td><div class="two"><button onclick="insert('2')">2</button></div></td>
+                    <td><div class="thre"><button onclick="insert('3')">3</button></div></td>
+                </div>
+                <div class="symbols">
+                    <td><div class="plus" onclick="insert('+')"><button>+</button></div></td>
+                </div>
+            </tr>
+
+            <tr>
+                <div class="numbers">
+                    <td><div class="+/-"><button>+/-</button></div></td>
+                    <td><div class="zero"><button onclick="insert('0')">0</button></div></td>
+                    <td><div class="comma"><button onclick="insert('.')">,</button></div></td>
+                </div>
+                <td><div class="equal"><button onclick="calcular()">=</button></div></td>
+            </tr>
+
+        </section>
+    </section>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

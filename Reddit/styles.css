@@ -1,0 +1,40 @@
+/* https://styles.redditmedia.com/t5_2sx2i/styles/communityIcon_7fixeonxbxd41.png?width=256&s=1ecde8d0f7197fe3aa1b9d6eef5936f7401db607  */
+/* https://styles.redditmedia.com/t5_2sx2i/styles/bannerBackgroundImage_qhzusrmg7cl61.png?width=4000&s=a847a9c311baea121bb5c357bc6dbd91c1732af8 - imagem baclground*/
+
+/* body starts */
+body {
+    background-color: #fff;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+/* body ends */
+
+/* header starts*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 2vh;
+    align-items: center;
+}
+
+.logo img{
+    display: flex;
+    margin-right: 10vh;
+    height: 20%;
+    width: 23%;
+}
+
+.header_center input {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    height: 1vh;
+    width: 30vw;
+    padding: 1vh 10vh;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+/* header ends */
