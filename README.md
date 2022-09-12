@@ -12,7 +12,7 @@ Projetos pessoais com fins de estudo - HTML, CSS, JS, TypeScript e React JS
 
 
 # Grandes projetos
-- Pokedex:  Ainda não finalizado | Objetivo - Consumir a PokeAPI para listar todos os pokemons por 3 formas: digitando seu nome, selecionando seus tipos e todos em ordem utilizando ReactJS
+- Pokedex:  Ainda não finalizado
 <p>Tecnologias
 - HTML
 - CSS
@@ -22,3 +22,14 @@ Projetos pessoais com fins de estudo - HTML, CSS, JS, TypeScript e React JS
 Progresso
 Refinar as buscas, acertar paginação, adicionar filtros por tipo e layout CSS
  | -
+ 
+ - Coffe Delivery: Ainda não finalizado | Utilizar conceitos um pouco mais avançados, a aplicação conta com 3 telas, uma de apresentação, um formulário de entrega com itens num carrinho e uma tela de confirmação de pedido.
+ <p>Tecnologias
+ -Vite
+ -Styled Components
+ -local Storage
+ -TypeScript
+ -ContextAPI
+ -ReactRouter Dom
+ -React Hook Form (ainda não implementado)
+ -Validações de formulário com Zod (Ainda não implementado)
