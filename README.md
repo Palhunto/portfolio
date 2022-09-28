@@ -1,4 +1,4 @@
-# portfolio
+# portfolio <img width="20" height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
 Projetos pessoais com fins de estudo - HTML, CSS, JS, TypeScript e React JS
 
 
