@@ -3,7 +3,7 @@ Projetos pessoais com fins de estudo - HTML, CSS, JS, TypeScript e React JS
 
 
 
-##Google 
+## Google 
 <img src="https://i.ibb.co/PT3SJ5X/google.png" align="center" />
 Clone interafce Google - HTML e CSS - Não responsivo | Objetivo - Rever as bases de HTML/CSS básico sem preocupação com responsividade
 
