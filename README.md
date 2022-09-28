@@ -15,6 +15,8 @@ Primeiro site utilizando react, visa entender os aspectos básicos do react com 
 <img src="https://i.ibb.co/z2mBbpb/blog.png" align="center" />
 Utilizando ainda conceitos básicos, foi criado uma aplicação com objetivo de representar um blog em seu feed. A aplicação conta com apenas uma tela responsiva e com recursos como utilização de API e ReactHooks
 <br>
+<br>
+
 ## Projetos menores e não finalizados
 <br>
 
