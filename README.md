@@ -3,7 +3,9 @@ Projetos pessoais com fins de estudo - HTML, CSS, JS, TypeScript e React JS
 
 
 
-- *Google*: Clone interafce Google - HTML e CSS - Não responsivo | Objetivo - Rever as bases de HTML/CSS básico sem preocupação com responsividade
+##Google 
+<img src="https://prnt.sc/OyRKUXi6wXIK" align="center" />
+Clone interafce Google - HTML e CSS - Não responsivo | Objetivo - Rever as bases de HTML/CSS básico sem preocupação com responsividade
 - *Lista de Chamadas*: Primeiro projeto React usando vite  | Objetivo - Primeiro projeto utlizando React visando o foque nos hooks UseEffect e UseState utilizando a API do gitHUB
 - *Reddit*: Interface do subReddit UnixPorn Momentos iniciais | Objetivo - Utulizar apenas HTML e CSS aplicando todas as boas práticas possíveis - Parado por enquanto
 - Treino CSS: Apenas alguns devaneios em CSS | Objetivo - Aprender uma melhor estilização CSS
