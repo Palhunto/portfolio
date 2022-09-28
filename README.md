@@ -21,19 +21,19 @@ Utilizando ainda conceitos básicos, foi criado uma aplicação com objetivo de 
 <br>
 
 ### Reddit 
-Interface do subReddit UnixPorn Momentos iniciais | Objetivo - Utulizar apenas HTML e CSS aplicando todas as boas práticas possíveis - Parado por enquanto
+Apliação com objetivo de clonar um subreddit com todas as suas características visuais, além de claro, adicionar responsividade - projeto parado
 <br>
 
 ### Treino CSS 
-Apenas alguns devaneios em CSS | Objetivo - Aprender uma melhor estilização CSS
+Apenas alguns devaneios em CSS
 <br>
 
 ### Calculadora 
-Calculadora simples com o layout da calculadora do Windows 10 | Objetiv - Integrar o HTML e CSS ao JavaScript utilizando o basico de cada tecnologia - Layout em suas fases finais
+Calculadora simples com o layout da calculadora do Windows 10
 <br>
 
 ### netflix 
-Recriar a interface de Login da netflix | Objetivo - Recriar mais uma interface utilizando HTML e CSS - Estágios finais, faltando apenas rodapé
+Aplicação simples com objetivo de clonar a tela de login da netflix
 <br>
 
 ## Grandes projetos
